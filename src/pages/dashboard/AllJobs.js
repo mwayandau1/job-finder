@@ -1,7 +1,10 @@
-
+import {SearchContainer, JobsContainer} from '../../components'
 function AllJobs() {
   return (
-    <div>AllJobs</div>
+    <div>
+      <SearchContainer />
+      <JobsContainer />
+    </div>
   )
 }
 

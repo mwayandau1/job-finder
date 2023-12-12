@@ -29,7 +29,7 @@ function Navbar() {
                 <FaCaretDown />
             </button>
             <div className={`dropdown ${showLogout ? 'show-dropdown': ''}` }>
-                <button className='dropdown-btn' onClick={()=>dispatch(logoutUser())}>
+                <button className='dropdown-btn' onClick={()=>dispatch(logoutUser("Logging out..."))}>
                     logout
                 </button>
             </div>
